@@ -1,6 +1,16 @@
 # Rishi-HEIC-Carver
 
-This template should help get you started developing with Vue 3 in Vite.
+ A custom HEIC carver. This takes a .dd image input, searches for contiguous and non aligned files.
+
+Live Demo is available : https://rishi-heic-carver.pages.dev/
+
+## Instructions
+- When website is running : https://rishi-heic-carver.pages.dev/
+- Upload a image file (.dd)
+- Our tool will parse the file and output JPG files for the browser (browsers cannot display native HEIC files)
+- Download link will be available for the carved .HEIC file
+- Use chrome based browsers as we need to support Webworkers and ArrayBuffers
+
 
 ## Recommended IDE Setup
 
